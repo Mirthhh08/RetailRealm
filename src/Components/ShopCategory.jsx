@@ -9,7 +9,7 @@ export const ShopCategory = (props) => {
 
   return (
     <div className="w-[90%] mr-auto ml-auto mt-10 ">
-      <div className="flex gap-2 uppercase break-words">
+      <div className="flex gap-2 uppercase break-words text-[12px] xl:text-[16px] lg:xl:text-[16px] md:xl:text-[14px]">
         <p>Home</p>
         <p>/</p>
         <p>Category</p>

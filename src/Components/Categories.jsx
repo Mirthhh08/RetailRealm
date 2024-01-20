@@ -24,7 +24,7 @@ export const Categories = () => {
       id: 3,
       icon: <LuBaby size={30} />,
       category: "Kids Fashion",
-      link: "/kids",
+      link: "/kid",
     },
     {
       id: 4,
@@ -49,11 +49,11 @@ export const Categories = () => {
   return (
     <div className="mt-20">
       <div className="flex gap-4 items-center">
-        <img src={rectangle} />
-        <h1 className="text-xl text-[#DB4444] font-semibold ">Categories</h1>
+        <img src={rectangle} className="w-4 xl:w-6 lg:-w-5 " />
+        <h1 className="text-lg  xl:text-xl text-[#DB4444] font-semibold ">Categories</h1>
       </div>
 
-      <h1 className="text-4xl font-semibold tracking-wider break-words mt-10">
+      <h1 className="text-xl xl:text-4xl lg:text-3xl md:text-2xl font-semibold tracking-wider break-words mt-10">
         Browse By Category
       </h1>
 

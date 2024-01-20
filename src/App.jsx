@@ -8,12 +8,13 @@ import { Cart } from "./pages/Cart";
 import { LoginSignUp } from "./pages/LoginSignUp";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
-import axios from "axios";
 import { useEffect } from "react";
 import men_banner from "./assets/Assets/banner_mens.png";
 import women_banner from "./assets/Assets/banner_women.png";
 import kids_banner from "./assets/Assets/banner_kids.png";
 import { ShopCategory } from "./Components/ShopCategory";
+import { Product } from "./pages/Product";
+
 const App = () => {
   const [products, setProducts] = React.useState(null);
 
@@ -37,9 +38,14 @@ const App = () => {
                 }
               />
               <Route
-                path="/kids"
+                path="/kid"
                 element={<ShopCategory banner={kids_banner} category="kid" />}
               />
+
+              <Route path="/product" element={<Product />}>
+
+                <Route path=":productId" element={<Product/>} />
+              </Route>
 
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />

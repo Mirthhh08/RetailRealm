@@ -7,10 +7,10 @@ export const NewCollection = () => {
     <div>
       <div className="">
         <div className="flex gap-4 items-center">
-          <img src={rectangle} />
+          <img src={rectangle} className="w-4 xl:w-6 lg:-w-5 " />
           <h1 className="text-xl text-[#DB4444] font-semibold ">Featured</h1>
         </div>
-        <h1 className="text-4xl font-semibold tracking-wider break-words mt-10">
+        <h1 className="text-xl xl:text-4xl lg:text-3xl md:text-2xl font-semibold tracking-wider break-words mt-10">
           New Collections
         </h1>
       </div>
@@ -29,7 +29,6 @@ export const NewCollection = () => {
           );
         })}
       </div>
-      
     </div>
   );
 };

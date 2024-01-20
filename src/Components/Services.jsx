@@ -21,7 +21,7 @@ export const Services = () => {
       id: 3,
       logo: shieldtick,
       heading: "MONEY BACK GUARANTEE",
-      tagline: "We reurn money within 30 days",
+      tagline: "We return money within 30 days",
     },
   ];
   return (
@@ -33,12 +33,12 @@ export const Services = () => {
               key={service.id}
               className="flex flex-col justify-center items-center mt-10"
             >
-              <div className="bg-[#2F2E30] w-[80px] h-[80px] rounded-full flex  justify-center items-center">
-                <div className="bg-black w-[60px] h-[60px] rounded-full flex  justify-center items-center">
-                  <img src={service.logo} />
+              <div className="bg-[#2F2E30] w-[60px] h-[60px] xl:w-[80px] xl:h-[80px] rounded-full flex  justify-center items-center">
+                <div className="bg-black w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] rounded-full flex  justify-center items-center">
+                  <img src={service.logo} className="w-[30px] xl:w[40px]" />
                 </div>
               </div>
-              <h1 className="text-xl font-bold break-words mt-2 mb-2">
+              <h1 className=" text-lg xl:text-xl font-bold break-words mt-2 mb-2">
                 {service.heading}
               </h1>
               <p className="text-sm  font-normal break-words">
