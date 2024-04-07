@@ -19,6 +19,11 @@ Experience the pinnacle of online shopping with Retail Realm, an innovative ecom
 ![image](https://github.com/Mirthhh08/RetailRealm/assets/92306499/82ed4f18-99b1-4dc3-aee5-0227a86c790e)
 ![image](https://github.com/Mirthhh08/RetailRealm/assets/92306499/6ea5bb53-2f79-4b19-94da-1bf60a22a22a)
 ![image](https://github.com/Mirthhh08/RetailRealm/assets/92306499/f05dd9f2-75f2-4982-b0aa-1d54ff68937c)
+![image](https://github.com/Mirthhh08/RetailRealm/assets/92306499/db4d25a0-0b9d-4461-884c-10fa9fb5aa0c)
+
+![image](https://github.com/Mirthhh08/RetailRealm/assets/92306499/e70e916e-2ee0-43d2-b042-dbb8ce024106)
+
+
 ![image](https://github.com/Mirthhh08/RetailRealm/assets/92306499/f6c418af-aec0-4806-ac9c-dc765982d0f6)
 
 
